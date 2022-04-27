@@ -121,6 +121,15 @@ section {
 }
 /* Hero Styles End */
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Universal Section Styles */
 .section-title {
   display: inline-block;
   font-size: 55px;
@@ -137,6 +146,8 @@ section {
 .secondary-border {
   border-color: #024e76;
 }
+
+/* End Universal Section Styles */
 
 /* Intro Section Styles */
 .intro {
@@ -182,3 +193,44 @@ section {
   font-size: 38px;
 }
 /* End Steps Styles*/
+
+/* Start Trainers Section Styles */
+.trainers {
+  text-align: center;
+}
+
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+}
+
+.trainer img {
+  width: 35%;
+  float: left;
+}
+
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
+}
+
+.trainer-bio h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+  font-weight: lighter;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.trainer-bio p {
+  font-size: 17px;
+  line-height: 1.7;
+}
+/* End Trainers Section Styles */
