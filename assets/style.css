@@ -168,12 +168,13 @@ input[type="checkbox"] {
 
 /* Universal Section Styles */
 .section-title {
-  display: inline-block;
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -184,11 +185,14 @@ input[type="checkbox"] {
   border-color: #024e76;
 }
 
+.flex-row {
+  display: flex;
+}
+
 /* End Universal Section Styles */
 
 /* Intro Section Styles */
 .intro {
-  text-align: center;
 }
 
 .intro p {
@@ -197,12 +201,12 @@ input[type="checkbox"] {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 /* End Intro Styles*/
 
 /* Steps Styles*/
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -233,7 +237,6 @@ input[type="checkbox"] {
 
 /* Start Trainers Section Styles */
 .trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -276,7 +279,6 @@ input[type="checkbox"] {
 
 .contact {
   background-color: #024e76;
-  text-align: center;
 }
 
 .contact h2 {
