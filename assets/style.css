@@ -11,7 +11,6 @@ body {
 
 header {
   padding: 20px 35px;
-  background-color: #39a6b2;
 }
 
 header h1 {
@@ -80,13 +79,14 @@ section {
 
 .hero-form {
   color: #024e76;
-  background-color: #fce138;
+  background-color: #fce238c0;
   padding: 20px;
-  width: 500px;
+  width: 600px;
   border: solid 3px #024e76;
   position: absolute;
   bottom: 120px;
   right: 140px;
+  border-radius: 25px;
 }
 
 .hero-form h3 {
@@ -100,6 +100,7 @@ section {
 
 .form-input {
   border: 1px solid #024e76;
+  border-radius: 10px;
   display: block;
   padding: 7px 15px;
   font-size: 12pt;
@@ -116,8 +117,21 @@ section {
   color: #fce138;
   background-color: #024e76;
   border: none;
+  border-radius: 10px;
   padding: 10px 20px;
   font-size: 16px;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
 /* Hero Styles End */
 
