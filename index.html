@@ -53,16 +53,22 @@
         <label for="phone">Enter phone number</label>
         <input type="tel" placeholder="Enter Phone Number" name="phone" id="phone" class="form-input" />
         <!-- Training Experience -->
-        <p>Have you worked with a trainer before?
-        <input type="radio" name="trainer-confirm" id="trainer-yes" />
-        <label for="trainer-yes">Yes</label>
-        <input type="radio" name="trainer-confirm" id="trainer-no" />
-        <label for="trainer-no">No</label>
+        <p>Have you worked out with a trainer before?
+          <span class="radio-wrapper">
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trainer-yes">Yes</label>
+          </span>
+          <span class="radio-wrapper">
+            <input type="radio" name="trainer-confirm" id="trainer-no" />
+            <label for="trainer-no">No</label>
+          </span>
         </p> 
         <!-- At least 18? -->
         <p>
-          <input type="checkbox" name="age-confirm" id="checkbox" />
-          I acknowledge that I am at least 18 years of acknowledge
+          <span class="checkbox-wrapper">
+            <input type="checkbox" name="age-confirm" id="checkbox" />
+            <label for="checkbox">I acknowledge that I am at least 18 years of acknowledge</label>
+        </span>
         </p>
         <button type="submit">
           Get Running!
